@@ -29,8 +29,11 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
+      - name: Create Web folder if missing
+        run: flutter create --platforms web . || true
+
       - name: Build Web
-        run: flutter build web --release --no-tree-shake-icons
+        run: flutter build web --release --no-tree-shake-icons --base-href /Flutta/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
