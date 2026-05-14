@@ -1,0 +1,18 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter tool to assess compatibility and perform upgrades.
+# This file should be version controlled.
+
+# This file should be checked into version control.
+
+[project]
+  type: app
+
+[metadata]
+  version: 1.0.0
+  migration: false
+  upgrade: false
+  creation: true
+
+[project/ios]
+  type: ios
+  created: true

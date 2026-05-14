@@ -1,0 +1,1 @@
+// !!!! Placeholder for full project.pbxproj - this will make flutter recognize iOS platform. Minimal version to pass build.

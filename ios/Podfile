@@ -1,0 +1,11 @@
+platform :ios, '12.0'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+enable_bitcode = false
+
+# Flutter Pod
+
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+# CocoaPods generated changes follow... (minimal)
